@@ -7,8 +7,8 @@
 Two files containing GCODE commands that can play Imperial March using the 3D Printer.
 
 The above gcode files mainly work on 3d printers that uses the MARLIN frimware and :
-1. Have 85 - 90 esteps for the X and the Y axis. (E3_Imperial_March.gcode)
-2. Have a speaker. (E3_Imperial_March_Buzzer.gcode)
+1. Use 85 - 90 E-Steps for the X and the Y axis. (E3_Imperial_March.gcode)
+2. Have a speaker or a buzzer instaled. (E3_Imperial_March_Buzzer.gcode)
 
 The  [E3_Imperial_March.gcode](https://github.com/Obrelix/Ender-3-Imperial-March-/blob/master/GCODE%20Files/E3_Imperial_March.gcode)
  file uses the  **G1** command that adds a linear move , with a specific rate,  to the queue to be performed after all previous moves are completed. By changing the rate and the posision of the stepper mottors produce frequencies for a certain period of time at specific times. [MARLIN Documentation G0-G1 Commands](https://marlinfw.org/docs/gcode/G000-G001.html)
