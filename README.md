@@ -4,7 +4,7 @@
  [![Watch the video](https://i.imgur.com/KWxv6zv.png)](https://youtu.be/fOcZKwsDDqY)
  
 
-Two GCode files that make the 3d printer to play the Imperial March. 
+Two files containing GCODE commands that can play Imperial March using the 3D Printer.
 
 The above gcode files work on the 3d printer Creality Ender 3 that uses the MARLIN frimware.
 
