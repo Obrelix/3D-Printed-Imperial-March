@@ -4,9 +4,7 @@
  [![Watch the video](https://i.imgur.com/KWxv6zv.png)](https://youtu.be/fOcZKwsDDqY)
  
 
-Two files containing GCODE commands that can play Imperial March using the 3D Printer.
-
-The above gcode files mainly work on 3d printers that uses the MARLIN frimware and :
+The files of this project mainly work on 3d printers or any other computerized machine tool use the MARLIN frimware and :
 1. Use 85 - 90 E-Steps for the X and the Y axis. (E3_Imperial_March.gcode)
 2. Have a speaker or a buzzer instaled. (E3_Imperial_March_Buzzer.gcode)
 
