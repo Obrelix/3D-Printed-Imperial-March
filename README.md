@@ -9,7 +9,7 @@ The files of this project mainly work on 3d printers or any other computerized m
 2. Have a speaker or a buzzer instaled. (E3_Imperial_March_Buzzer.gcode)
 
 The  [E3_Imperial_March.gcode](https://github.com/Obrelix/Ender-3-Imperial-March-/blob/master/GCODE%20Files/E3_Imperial_March.gcode)
- file uses the  **G1** command that adds a linear move , with a specific rate,  to the queue to be performed after all previous moves are completed. By changing the rate and the position of the stepper motors produce frequencies for a certain period of time at specific times. [MARLIN Documentation G0-G1 Commands](https://marlinfw.org/docs/gcode/G000-G001.html)
+ file uses the  **G1** command that adds a linear move , with a specific rate,  to the queue to be performed after all previous moves are completed. By changing the rate and the position of the stepper motors the computerized machine tool produce frequencies for a certain period of time at specific times. [MARLIN Documentation G0-G1 Commands](https://marlinfw.org/docs/gcode/G000-G001.html)
 
 The  [E3_Imperial_March_Buzzer.gcode](https://github.com/Obrelix/Ender-3-Imperial-March-/blob/master/GCODE%20Files/E3_Imperial_March_Buzzer.gcode) file uses the  **M300** command that add a tone to the tone queue and its requires **SPEAKER** to play tones (not just beeps). [MARLIN Documentation M300 Command](https://marlinfw.org/docs/gcode/M300.html)
 
